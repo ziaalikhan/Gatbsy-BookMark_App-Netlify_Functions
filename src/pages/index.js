@@ -8,7 +8,7 @@ import UserCards from "../components/UserCards";
 import Addbutton from "../components/Addbutton";
 import Loading from "../components/Loading";
 import Error from "../components/Error";
-import { BOOKMARKDATA } from "../graphql/query";
+import  BOOKMARKDATA  from "../graphql/query";
 import { ADD_bOOKMARK } from "../graphql/mutation";
 
 export default function Home() {
