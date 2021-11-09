@@ -74,7 +74,7 @@ export default function Home() {
       {/* BookMark List Container Data  */}
 
       <div className={styles.mainCard}>
-        {data.bookmarks.map((val , identity) => {
+        {/* {data.bookmarks.map((val , identity) => {
           return (
             <>
               <UserCards
@@ -85,7 +85,7 @@ export default function Home() {
               />
             </>
           );
-        })}
+        })} */}
       </div>
       {/* BookMark List Container Data End  */}
     </div>
