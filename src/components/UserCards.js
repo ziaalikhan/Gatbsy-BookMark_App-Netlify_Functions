@@ -4,7 +4,7 @@ import { useMutation } from "@apollo/client";
 import { BOOKMARKDATA } from "../graphql/query";
 import { DELETE_BOOKMARK } from "../graphql/mutation";
 
-export default function UserCards({ id, url, task }) {
+export default function UserCards({id, url, task }) {
   // console.log(id)
   const [deleteTodo] = useMutation(DELETE_BOOKMARK);
 

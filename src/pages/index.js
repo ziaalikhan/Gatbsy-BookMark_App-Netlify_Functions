@@ -43,7 +43,6 @@ export default function Home() {
   };
 
   // Loader Start
-
   if (loading) {
     return <Loading />;
   }
